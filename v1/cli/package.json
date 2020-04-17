@@ -1,0 +1,24 @@
+{
+  "name": "zoo-animals-cli",
+  "version": "1.0.0",
+  "description": "CLI to build json files that manage the population of animals at an imaginary zoo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "inquirer",
+    "json",
+    "async"
+  ],
+  "author": "Paul Cwik",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "fs": "0.0.1-security",
+    "inquirer": "^7.1.0",
+    "util": "^0.12.2",
+    "uuid": "^7.0.3"
+  }
+}
