@@ -8,5 +8,8 @@
     "start": "node server.js"
   },
   "author": "Paul Cwik",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^7.0.3"
+  }
 }

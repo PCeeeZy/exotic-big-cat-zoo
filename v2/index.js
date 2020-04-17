@@ -3,7 +3,7 @@ const Server = require('./models/Server.js');
 const Dispatch = require('./models/Dispatch.js');
 const Payload = require('./models/Payload.js');
 const db = require('./data/index.js');
-console.log(db)
+console.log(db.UserZoos)
 
 const app = new Server;
 app.router(new Dispatch, new Payload())
