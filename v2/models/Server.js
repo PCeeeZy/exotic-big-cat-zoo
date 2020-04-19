@@ -3,8 +3,7 @@ function Server() {
      * Manages communication amongst internal functions through the use of dispatches and payloads.
      * 
      * DESCRIPTION HERE NEEDS TO BE UPDATED
-     * 
-     * @param {method} this.router - The function that drives server routing.
+     * @function this.router - The method that drives server routing.
         * @param {Object} dispatch - The config for routing.
             * @param {string} dispatch.path - The intended target.
             * @param {string} dispatch.method - The intended method.
