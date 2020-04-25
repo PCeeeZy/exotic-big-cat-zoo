@@ -8,13 +8,12 @@ Your file and folder structure should look something like this
 ```
 db/
     shema, queries, seed . sql from last phase
-public/
-    css/
-        style.css
-    js/
-        script.js
 
+public/
+    css/style.css
+    js/script.js
     index.html
+
 routes/
     index.js
 
