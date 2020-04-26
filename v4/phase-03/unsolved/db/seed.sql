@@ -1,7 +1,7 @@
 use exotic_zoo;
 
 -- I suggest creating user called 'guest' and give them dumb password.
-INSERT INTO users (username, password) values ('guest', 'troll');
+INSERT INTO users (username, pw) values ('guest', 'troll');
 
 -- When executed we want this to add at least 1 user and 3 animals to that users zoo.
 INSERT INTO animals (userId, name, age, species, image, gender, catchphrase) VALUES (1, 'Tony', 26, 'Tiger', 'https://www.thefactsite.com/wp-content/uploads/2019/02/tony-the-tiger.jpg', 'male', "They'rrrrrr Grrrrrreat"),

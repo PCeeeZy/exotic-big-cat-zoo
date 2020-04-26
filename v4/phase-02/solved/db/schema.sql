@@ -23,5 +23,6 @@ CREATE TABLE animals (
     species VARCHAR(64),
     image VARCHAR(256),
     gender VARCHAR(16) NOT NULL,
-    catchphrase VARCHAR(256) NOT NULL
+    catchphrase VARCHAR(256) NOT NULL,
+    primary key (id)
 );

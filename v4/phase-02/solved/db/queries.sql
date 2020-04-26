@@ -3,14 +3,14 @@
 -- SELECT ALL animals
 SELECT * from animals;
 
--- SELECT ALL user's animals (we only have the first user)
-SELECT * from animals WHERE userId = 1;
+-- SELECT ALL user's animals
+SELECT * from animals WHERE userId = 1 AND species='Tiger';
 
 -- CHECK login
-SELECT * from users WHERE username=? AND password=?;
+SELECT * from users WHERE username='guest' AND pw='troll';
 
 -- INSERT user
-INSERT INTO users (username, password) VALUES ('guest', 'troll');
+INSERT INTO users (username, pw) VALUES ('guest', 'troll');
 
 -- INSERT animal
 INSERT into animals (userId, name, age, species, image, gender, catchphrase) VALUES (userId, name, age, species, image, gender, catchphrase);
