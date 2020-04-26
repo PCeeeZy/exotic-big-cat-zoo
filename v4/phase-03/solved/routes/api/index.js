@@ -1,13 +1,10 @@
 const path = require("path");
 const router = require("express").Router();
 // const userRoutes = require("./users");
-// const animalRoutes = require("./animals");
-
-// User routes
-// router.use("/users", userRoutes);
+const animalRoutes = require("./animals");
 
 // Animal Routes
-// router.use("/animals", animalRoutes);
+router.use("/animals", animalRoutes);
 
 // For anything else, render the html page
 router.use(function(req, res) {
