@@ -1,4 +1,4 @@
-var orm = require("../config/orm.js");
+var orm = require("../orm/orm.js");
 
 var controller = {
   all: function(cb) {
